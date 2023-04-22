@@ -488,13 +488,14 @@ footer .social a:hover {
 /*------------- RESPONSIVO -------------*/
 
 @media (min-width: 992px) {
+
+  .swiper {
+    width: 100% !important;
+  }
+
   section .container {
     width: 60%;
     margin: 0 auto !important;
-  }
-
-  #testimonials .swiper-container {
-    width: 70%;
   }
 
   #metas .container  {
